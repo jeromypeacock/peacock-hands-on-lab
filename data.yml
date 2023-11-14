@@ -10,7 +10,13 @@ jobs:
     subgraphs: []
 locations:
   SRC:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "8":
+        database: PEACOCK
+        schema: WORKTEST
+      "9":
+        database: PEACOCK
+        schema: WORKPROD
   WORK:
     mappingDefinitions:
       "8":
