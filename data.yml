@@ -8,7 +8,17 @@ jobs:
     name: Job1
     steps: []
     subgraphs: []
-locations: {}
+locations:
+  SRC:
+    mappingDefinitions: {}
+  WORK:
+    mappingDefinitions:
+      "8":
+        database: PEACOCK
+        schema: WORKTEST
+      "9":
+        database: PEACOCK
+        schema: WORKPROD
 macros: {}
 packages: {}
 projects: {}
